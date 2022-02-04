@@ -9,6 +9,7 @@
   "author": "Satish",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.2",
     "lodash": "^4.17.21",
     "nodemailer": "^6.7.2",
     "upper-case": "^2.0.2"
