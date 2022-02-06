@@ -1,0 +1,11 @@
+body{
+    background-color: aquamarine;
+    color: brown;
+}
+.nav li{
+    display: inline-flex;
+    padding: 5px 100px;
+}
+.nav{
+    background-color: chartreuse;
+}
