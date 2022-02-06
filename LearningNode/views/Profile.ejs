@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Profile Page</title>
+    </head>
+    <body>
+        <h1>Welcome! Mr. <%=name%></h1>
+        <h3>Email:<%=data.email%></h3>
+        <h3>Name:<%=data.name%></h3>
+        <h3>City:<%=data.city%></h3>
+        <ul>
+            <%data.skills.forEach(function(items){ %>
+                <li><%=items%></li>
+            <%})%>
+        </ul>
+
+    </body>
+</html>
